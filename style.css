@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 6em;
+    background-color: rgba(37,94,233,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+nav {
+    padding: 1em;
+    background-color: rgba(37,94,233,255);
+    height: 3.5em;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bluecont {
+    height: 16em;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.violetbox {
+    background-color: violet;
+    height: 80%;
+    width: 60%; 
+    border: 2px dashed black ;
+
+}
+
+
+.whitecont {
+    padding-inline: 15%;
+    height: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    height:  80%;
+    width: 60%;
+    flex: 0 1 70%;
+    background-color: rgb(26, 95, 199);
+    border: 2px dashed black ;
+
+}
+
+aside {
+    height:  80%;
+    width: 60%;
+    flex: 0 1 30%;
+    background-color: pink;
+    border: 2px dashed black ;
+
+}
+
+.greycont {
+    padding-inline: 15%;
+    background-color:lightgray;
+    height: 18em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.greybig {
+    padding-inline: 15%;
+    background-color: lightgray;
+    height: 45em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.greenbox {
+    background-color: green;
+    height: 80%;
+    width: 100%;
+    border: 2px dashed black ;
+
+}
+
+.darkgreybox {
+    padding-inline: 15%;
+    background-color: rgb(82, 82, 82);
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.salmon {
+    border: solid black;
+    background-color: salmon;
+    height:  80%;
+    width: 60%;
+    flex: 0 1 40%;
+    border: 1px dashed black ;
+
+}
+
+.fourboxes {
+    border: solid black;
+    background-color: cadetblue;
+    height:  80%;
+    width: 60%;
+    flex: 0 1 15%;
+    border: 1px dashed white ;
+
+}
+
+
+footer {
+    background-color: rgb(82, 82, 82);
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-cont {
+    height: 70%;
+    width: 70%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 0.5em;
+}
+
+.f-logo, .f-button {
+    border: 1px dashed black ;
+    height: 1.2em;
+    width: 4em;
+    background-color: pink;
+    text-align: center;
+    
+}
+
+
+
