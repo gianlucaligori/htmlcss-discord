@@ -63,17 +63,54 @@ p {
 
 
 
-
-
-.whitecont {
-    padding-inline: 15%;
-    height: 18em;
+.row1 {
+    padding-inline: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.bluebox {
+.frog {
+    background-image: url(img/item1.svg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-inline: 5rem;
+}
+
+.row2 {
+    padding-inline: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.magician {
+    background-image: url(img/item2.svg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-inline: 5rem;
+}
+
+.row3 {
+    padding-inline: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ciclope {
+    background-image: url(img/item3.svg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-inline: 5rem;
+}
+
+
+/* .bluebox {
     height:  80%;
     width: 60%;
     flex: 0 1 70%;
@@ -89,9 +126,9 @@ aside {
     background-color: pink;
     border: 2px dashed black ;
 
-}
+} */
 
-.greycont {
+/* .greycont {
     padding-inline: 15%;
     background-color:lightgray;
     height: 18em;
@@ -109,8 +146,8 @@ aside {
     justify-content: center;
     align-items: center;
 
-}
-
+} */
+/* 
 .greenbox {
     background-color: green;
     height: 80%;
@@ -147,7 +184,7 @@ aside {
     flex: 0 1 15%;
     border: 1px dashed white ;
 
-}
+} */
 
 
 footer {
