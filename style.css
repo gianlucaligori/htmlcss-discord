@@ -136,7 +136,6 @@ footer {
     background-color: rgb(38, 38, 38);
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px 70% solid white;
 }
 
 .icons {
@@ -170,5 +169,16 @@ li {
 h4 {
     color: rgba(88,101,242,255);
     padding-bottom: 1rem;
+}
+
+.underfooter {
+    padding: 3rem;
+    background-color: rgb(38, 38, 38);
+    border-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(88,101,242,255);
+
 }
 
